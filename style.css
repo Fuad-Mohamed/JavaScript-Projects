@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-question {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.paragraph {
+  display: none;
+  transition: max-height 0.3s ease;
+}
+
+.paragraph.show {
+  display: block;
+}
+
+.lucide-chevron-down {
+  transition: transform 0.3s;
+}
+
+.lucide-chevron-down.rotated {
+  transform: rotate(180deg);
+}
